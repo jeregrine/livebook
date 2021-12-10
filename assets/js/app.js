@@ -20,6 +20,7 @@ import VirtualizedLines from "./virtualized_lines";
 import UserForm from "./user_form";
 import EditorSettings from "./editor_settings";
 import VegaLite from "./vega_lite";
+import Canvas from "./canvas";
 import Timer from "./timer";
 import MarkdownRenderer from "./markdown_renderer";
 import Highlight from "./highlight";
@@ -39,6 +40,7 @@ const hooks = {
   UserForm,
   EditorSettings,
   VegaLite,
+  Canvas,
   Timer,
   MarkdownRenderer,
   Highlight,
